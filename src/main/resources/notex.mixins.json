@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "name.soy.notex.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockMixin",
+    "InstrumentMixin",
+    "IntPropertyMixin",
+    "LevelSessionAccessor",
+    "MaterialAccessor",
+    "NoteBlockMixin",
+    "ServerAccessor",
+    "ServerMixin",
+    "WorldChunkMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

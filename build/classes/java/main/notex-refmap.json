@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "name/soy/notex/mixin/BlockMixin": {
+      "onBreak": "Lnet/minecraft/class_2248;method_9576(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;)V",
+      "onPlaced": "Lnet/minecraft/class_2248;method_9567(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V"
+    },
+    "name/soy/notex/mixin/InstrumentMixin": {
+      "fromBlockState": "Lnet/minecraft/class_2766;method_11887(Lnet/minecraft/class_2680;)Lnet/minecraft/class_2766;"
+    },
+    "name/soy/notex/mixin/NoteBlockMixin": {
+      "onSyncedBlockEvent": "Lnet/minecraft/class_2428;method_9592(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;II)Z",
+      "Lnet/minecraft/world/World;playSound(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_8396(Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V",
+      "getStateForNeighborUpdate": "Lnet/minecraft/class_2428;method_9559(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+      "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_1937;method_8320(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+      "onUse": "Lnet/minecraft/class_2428;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;",
+      "playNote": "Lnet/minecraft/class_2428;method_10367(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+    },
+    "name/soy/notex/mixin/LevelSessionAccessor": {
+      "directory": "field_23768:Ljava/nio/file/Path;"
+    },
+    "name/soy/notex/mixin/IntPropertyMixin": {
+      "of": "Lnet/minecraft/class_2758;method_11867(Ljava/lang/String;II)Lnet/minecraft/class_2758;"
+    },
+    "name/soy/notex/mixin/MaterialAccessor": {
+      "material": "field_23158:Lnet/minecraft/class_3614;"
+    },
+    "name/soy/notex/mixin/ServerMixin": {
+      "save": "Lnet/minecraft/server/MinecraftServer;method_3723(ZZZ)Z"
+    },
+    "name/soy/notex/mixin/WorldChunkMixin": {
+      "createBlockEntity": "Lnet/minecraft/class_2818;method_12208(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2586;",
+      "setBlockState": "Lnet/minecraft/class_2818;method_12010(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;",
+      "setBlockEntity": "Lnet/minecraft/class_2818;method_12007(Lnet/minecraft/class_2338;Lnet/minecraft/class_2586;)V"
+    },
+    "name/soy/notex/mixin/ServerAccessor": {
+      "session": "field_23784:Lnet/minecraft/class_32$class_5143;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "name/soy/notex/mixin/BlockMixin": {
+        "onBreak": "Lnet/minecraft/class_2248;method_9576(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;)V",
+        "onPlaced": "Lnet/minecraft/class_2248;method_9567(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V"
+      },
+      "name/soy/notex/mixin/InstrumentMixin": {
+        "fromBlockState": "Lnet/minecraft/class_2766;method_11887(Lnet/minecraft/class_2680;)Lnet/minecraft/class_2766;"
+      },
+      "name/soy/notex/mixin/NoteBlockMixin": {
+        "onSyncedBlockEvent": "Lnet/minecraft/class_2428;method_9592(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;II)Z",
+        "Lnet/minecraft/world/World;playSound(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/sound/SoundEvent;Lnet/minecraft/sound/SoundCategory;FF)V": "Lnet/minecraft/class_1937;method_8396(Lnet/minecraft/class_1657;Lnet/minecraft/class_2338;Lnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V",
+        "getStateForNeighborUpdate": "Lnet/minecraft/class_2428;method_9559(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+        "Lnet/minecraft/world/World;getBlockState(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;": "Lnet/minecraft/class_1937;method_8320(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;",
+        "onUse": "Lnet/minecraft/class_2428;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;",
+        "playNote": "Lnet/minecraft/class_2428;method_10367(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)V"
+      },
+      "name/soy/notex/mixin/LevelSessionAccessor": {
+        "directory": "field_23768:Ljava/nio/file/Path;"
+      },
+      "name/soy/notex/mixin/IntPropertyMixin": {
+        "of": "Lnet/minecraft/class_2758;method_11867(Ljava/lang/String;II)Lnet/minecraft/class_2758;"
+      },
+      "name/soy/notex/mixin/MaterialAccessor": {
+        "material": "field_23158:Lnet/minecraft/class_3614;"
+      },
+      "name/soy/notex/mixin/ServerMixin": {
+        "save": "Lnet/minecraft/server/MinecraftServer;method_3723(ZZZ)Z"
+      },
+      "name/soy/notex/mixin/WorldChunkMixin": {
+        "createBlockEntity": "Lnet/minecraft/class_2818;method_12208(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2586;",
+        "setBlockState": "Lnet/minecraft/class_2818;method_12010(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;",
+        "setBlockEntity": "Lnet/minecraft/class_2818;method_12007(Lnet/minecraft/class_2338;Lnet/minecraft/class_2586;)V"
+      },
+      "name/soy/notex/mixin/ServerAccessor": {
+        "session": "field_23784:Lnet/minecraft/class_32$class_5143;"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "notex",
+  "version": "1.0-SNAPSHOT",
+  "name": "Notex",
+  "description": "",
+  "authors": [
+    "soy_bottle"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "name.soy.notex.client.NotexClient"
+    ],
+    "main": [
+      "name.soy.notex.Notex"
+    ]
+  },
+  "mixins": [
+    "notex.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.1",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

@@ -1,0 +1,37 @@
+name/soy/notex/mixin/InstrumentMixin.java
+ name.soy.notex.mixin.InstrumentMixin
+name/soy/notex/NoteBlockEntity.java
+ name.soy.notex.NoteBlockEntity
+name/soy/notex/mixin/WorldChunkMixin.java
+ name.soy.notex.mixin.WorldChunkMixin
+name/soy/notex/mixin/BlockMixin.java
+ name.soy.notex.mixin.BlockMixin
+name/soy/notex/mixin/LevelSessionAccessor.java
+ name.soy.notex.mixin.LevelSessionAccessor
+name/soy/notex/mixin/MaterialAccessor.java
+ name.soy.notex.mixin.MaterialAccessor
+name/soy/notex/NotexCommand.java
+ name.soy.notex.NotexCommand
+name/soy/notex/SavedBlockPredicate.java
+ name.soy.notex.SavedBlockPredicate
+ name.soy.notex.SavedBlockPredicate$BasicCondition
+ name.soy.notex.SavedBlockPredicate$Builder
+ name.soy.notex.SavedBlockPredicate$InCondition
+ name.soy.notex.SavedBlockPredicate$MaterialCondition
+ name.soy.notex.SavedBlockPredicate$OfCondition
+name/soy/notex/CustomIns.java
+ name.soy.notex.CustomIns
+ name.soy.notex.CustomIns$InsMode
+name/soy/notex/mixin/ServerMixin.java
+ name.soy.notex.mixin.ServerMixin
+name/soy/notex/mixin/IntPropertyMixin.java
+ name.soy.notex.mixin.IntPropertyMixin
+name/soy/notex/Notex.java
+ name.soy.notex.Notex
+ name.soy.notex.Notex$ReversedHashMap
+name/soy/notex/client/NotexClient.java
+ name.soy.notex.client.NotexClient
+name/soy/notex/mixin/ServerAccessor.java
+ name.soy.notex.mixin.ServerAccessor
+name/soy/notex/mixin/NoteBlockMixin.java
+ name.soy.notex.mixin.NoteBlockMixin

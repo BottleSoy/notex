@@ -1,0 +1,6 @@
+v1	named	intermediary
+FIELD	name/soy/notex/mixin/NoteBlockMixin	Lnet/minecraft/state/property/IntProperty;	NOTE	field_11324
+FIELD	name/soy/notex/mixin/WorldChunkMixin	Lnet/minecraft/world/World;	world	field_12858
+FIELD	name/soy/notex/mixin/WorldChunkMixin	Ljava/util/Map;	blockEntities	field_12854
+METHOD	name/soy/notex/mixin/WorldChunkMixin	(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/entity/BlockEntity;	createBlockEntity	method_12208
+METHOD	name/soy/notex/mixin/WorldChunkMixin	(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/BlockState;	getBlockState	method_8320
