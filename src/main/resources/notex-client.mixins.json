@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.6",
+  "package": "name.soy.notex.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "NoteXUIMixixn"
+  ],
+  "client": [
+    "SoundSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

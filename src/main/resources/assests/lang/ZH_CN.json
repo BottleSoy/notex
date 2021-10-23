@@ -1,0 +1,9 @@
+{
+  "ins": "乐器",
+  "pitch": "音高",
+  "note.lock": "音符盒已锁定(不可调音，不可破坏，乐器无法更改)",
+  "note.unlock": "音符盒解锁",
+  "ins.notregistered": "此乐器未被注册！",
+  "scroll.enabled": "滚动调音模式",
+  "scroll.disabled": "退出滚动调音模式"
+}

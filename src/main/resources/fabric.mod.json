@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "notex",
+  "version": "${version}",
+  "name": "Notex",
+  "description": "",
+  "authors": [
+    "soy_bottle"
+  ],
+  "icon": "assests/icon.png",
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "name.soy.notex.Notex"
+    ]
+  },
+  "mixins": [
+    "notex.mixins.json",
+    "notex-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.1",
+    "fabric": "*"
+  }
+}

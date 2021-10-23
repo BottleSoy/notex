@@ -1,0 +1,9 @@
+{
+  "ins": "Instrument",
+  "pitch": "pitch",
+  "note.lock": "Note Block has been locked(Cannot be modified)",
+  "note.unlock": "Note Block unlocked",
+  "ins.notregistered": "this Instrument not registered!",
+  "scroll.enabled": "Scroll Tuning Mode",
+  "scroll.disabled": "EXIT Scroll Tuning Mode"
+}
